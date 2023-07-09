@@ -85,7 +85,6 @@ header {
   background-color: transparent;
   z-index: 2;
   transition: background-color 0.3s ease;
-   /* Adiciona um espaço de 20px entre o menu e o topo do site */
 }
 
 .menu {
@@ -181,7 +180,7 @@ header {
 .courses .title {
   text-align: center;
   font-size: 2em;
-  margin-top: 20px; /* Espaço acima do título */
+  margin-top: 20px; 
   margin-bottom: 40px;
   font-weight: 200;
   letter-spacing: 2px;  
@@ -191,9 +190,9 @@ header {
 
 .course-cards {
   display: flex;
-  grid-template-columns: repeat(4, 1fr); /* Define o número de colunas para exibir os cards */
-  grid-gap: 30px; /* Define o espaçamento entre os cards */
-  justify-items: center; /* Centraliza os elementos horizontalmente */
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px; 
+  justify-items: center; 
   flex-wrap: wrap;
 }
 
@@ -208,11 +207,11 @@ header {
 }
 @media (max-width: 768px) {
   .card {
-      width: 100%; /* Altera a largura dos cards para ocupar 100% da largura da tela em telas menores */
+      width: 100%; 
   }
 }
 .card img {
-  width: 150px; /* Defina o tamanho desejado para a imagem */
+  width: 150px; 
   height: auto;
   margin-bottom: 20px;
 }

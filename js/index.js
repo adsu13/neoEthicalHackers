@@ -8,9 +8,3 @@ window.addEventListener('scroll', function () {
         header.classList.remove('menu-black');
     }
 });
-const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
-const menuList = document.querySelector('.menu ul');
-
-mobileMenuIcon.addEventListener('click', function () {
-    menuList.classList.toggle('active');
-});
