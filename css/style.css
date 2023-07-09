@@ -104,7 +104,7 @@ header {
 
 .menu li {
   display: inline-block;
-  margin-right: 70px;
+  margin-right: 60px;
 }
 
 .menu li a {
@@ -190,7 +190,7 @@ header {
 }
 
 .course-cards {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(4, 1fr); /* Define o número de colunas para exibir os cards */
   grid-gap: 30px; /* Define o espaçamento entre os cards */
   justify-items: center; /* Centraliza os elementos horizontalmente */
@@ -206,7 +206,11 @@ header {
   padding: 20px;
   text-align: center;
 }
-
+@media (max-width: 768px) {
+  .card {
+      width: 100%; /* Altera a largura dos cards para ocupar 100% da largura da tela em telas menores */
+  }
+}
 .card img {
   width: 150px; /* Defina o tamanho desejado para a imagem */
   height: auto;
