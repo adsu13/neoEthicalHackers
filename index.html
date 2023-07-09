@@ -4,33 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
-    <title>NEO ETHICAL HACKERS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Celke - Home</title>
 </head>
 
 <body>
-    
-
-    <div class="banner">
-        <header>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#"><span>Conteúdos</span></a></li>
-                    <li><a href="#"><span>Materiais</span></a></li>
-                    <li><a href="#"><span>Artigos</span></a></li>
-                </ul>
-            </nav>
-        </header>
-        <video autoplay muted loop>
-            <source src="movie/video.mp4" type="video/mp4">
-        </video>
-        <div class="overlay"></div>
-        <div class="content">
-            <p>Junte-se a nós na jornada do conhecimento hacker ético
-            <br>Estudo, prática e evolução</p>
+    <div class="banner" id="home">
+        <div class="max-width">
+            <header class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#contents"><span>Conteúdos</span></a></li>
+                        <li><a href="#"><span>Materiais</span></a></li>
+                        <li><a href="#"><span>Artigos</span></a></li>
+                        <li><a href="#about"><span>Sobre nós</span></a></li>
+                    </ul>
+                </nav>
+            </header>
+            <video autoplay muted loop>
+                <source src="movie/video.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="content">
+                <p>Junte-se a nós na jornada do conhecimento hacker ético<br>Estudo, prática e evolução</p>
+            </div>
         </div>
     </div>
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Quem somos?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique tortor non ultrices scelerisque.
+                Mauris et risus at lectus eleifend sodales. Curabitur sed quam eu purus scelerisque congue. Integer
+                varius mattis dui, eu consectetur purus aliquam sed. Nullam et nunc risus. Fusce dignissim eu ligula non
+                fermentum. Suspendisse ut tincidunt lacus. Vivamus consectetur consequat ultrices.</p>
+        </div>
+    </section>
+    <section class="courses" id="contents">
+        <div class="max-width">
+            <p class="title">Conteúdos</p>
+            <div class="course-cards">
+                <div class="card">
+                    <img src="img/linux.png" alt="Curso 1">
+                    <h3>Linux  <br>Fundamentos</h3>
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+                <div class="card">
+                    <img src="img/redes.png" alt="Curso 1">
+                    <h3>Redes de computadores</h3>
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+                <div class="card">
+                    <img src="img/c.png" alt="Curso 1">
+                    <h3>Linguagem de programação C</h3>
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+                <div class="card">
+                    <img src="img/ctf.png" alt="Curso 1">
+                    <h3>CTF <br>(Capture The Flag)</h3>
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <script src="js/index.js"></script>
 </body>
 
 </html>
